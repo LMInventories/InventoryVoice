@@ -12,66 +12,39 @@
         android:text="InventoryVoice"
         android:textSize="28sp"
         android:textStyle="bold"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="48dp"
         android:layout_marginBottom="8dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Voice overlay for InventoryBase"
+        android:text="Voice input for InventoryBase"
         android:textSize="14sp"
-        android:alpha="0.7"
-        android:layout_marginBottom="40dp" />
+        android:alpha="0.6"
+        android:layout_marginBottom="48dp" />
 
-    <!-- Step 1 -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Step 1: Allow overlay permission"
-        android:textSize="13sp"
-        android:alpha="0.6"
-        android:layout_marginBottom="8dp" />
-
-    <Button
-        android:id="@+id/btnOverlay"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_enable_overlay"
-        android:layout_marginBottom="24dp" />
-
-    <!-- Step 2 -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Step 2: Enable accessibility service"
-        android:textSize="13sp"
-        android:alpha="0.6"
-        android:layout_marginBottom="8dp" />
+        android:text="Enable the accessibility service below, then open InventoryBase. A floating mic button will appear — tap it to dictate into any field."
+        android:textSize="14sp"
+        android:lineSpacingMultiplier="1.4"
+        android:layout_marginBottom="32dp" />
 
     <Button
         android:id="@+id/btnAccessibility"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_enable_accessibility"
-        android:layout_marginBottom="24dp" />
-
-    <!-- Step 3 -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Step 3: Start the overlay"
-        android:textSize="13sp"
-        android:alpha="0.6"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="16dp" />
 
     <Button
-        android:id="@+id/btnToggle"
+        android:id="@+id/btnOpenApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_start"
+        android:text="@string/btn_open_inventorybase"
         android:layout_marginBottom="32dp" />
 
-    <!-- Status -->
     <TextView
         android:id="@+id/tvStatus"
         android:layout_width="match_parent"
@@ -79,6 +52,6 @@
         android:gravity="center"
         android:textSize="13sp"
         android:alpha="0.7"
-        android:text="Complete steps above to begin" />
+        android:text="@string/status_not_enabled" />
 
 </LinearLayout>
