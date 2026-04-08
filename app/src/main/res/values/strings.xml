@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InventoryVoice</string>
+    <string name="accessibility_service_description">InventoryVoice uses accessibility to detect focused text fields in InventoryBase and insert transcribed speech into them.</string>
+    <string name="btn_enable_overlay">Enable Overlay Permission</string>
+    <string name="btn_enable_accessibility">Enable Accessibility Service</string>
+    <string name="btn_start">Start Voice Overlay</string>
+    <string name="btn_stop">Stop Voice Overlay</string>
+    <string name="status_ready">Ready — open InventoryBase and tap the mic button</string>
+    <string name="status_overlay_needed">Overlay permission required</string>
+    <string name="status_accessibility_needed">Accessibility service must be enabled</string>
+    <string name="channel_name">InventoryVoice Overlay</string>
+    <string name="channel_desc">Keeps the voice overlay running during inspections</string>
+    <string name="notification_title">InventoryVoice active</string>
+    <string name="notification_text">Tap the floating mic to dictate into any field</string>
+</resources>
